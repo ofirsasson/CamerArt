@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ai.fritz:vision-style-painting-models:3.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vision-style-painting-models-3.0.2.aar/57d2e4a5c1b9b493120d7def1f45978d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vision-style-painting-models-3.0.2.aar/57d2e4a5c1b9b493120d7def1f45978d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.fritz/vision-style-painting-models/3.0.2/5cdb1f558a590092d78228b1a5659c33055164af/vision-style-painting-models-3.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

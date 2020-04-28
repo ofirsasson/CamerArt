@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Camer-Art</string>
+
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="Stylecamera">Use the style camera from the main menu to capture pics in your favorite style. \n To switch styles touch the screen, to capture a photo touch the white circle. </string>
+    <string name="uploadtool">To upload new styles for us to build for you must be signed in using your google account. After you signed in you can choose between two option:</string>
+    <string name="uploadtoolcamera">Send us a style direct from your camera using the same camera interface!</string>
+    <string name="uploadtoolgallery">Send us a style from your gallery! \n If the feature does not work check the app\'s permissions.</string>
+    <string name="other">The photos you took with the app are saved in a special folder called "styled photos" and can be found on the android storage folder.</string>
+    <string name="myemail">For further support contact me at ofirsasson123@gmail.com.</string>
+</resources>

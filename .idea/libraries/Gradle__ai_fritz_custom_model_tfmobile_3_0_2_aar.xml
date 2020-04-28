@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ai.fritz:custom-model-tfmobile:3.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/custom-model-tfmobile-3.0.2.aar/aed9714ea71cb6a0c6ec66e0ca1a7a0c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/custom-model-tfmobile-3.0.2.aar/aed9714ea71cb6a0c6ec66e0ca1a7a0c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.fritz/custom-model-tfmobile/3.0.2/c0e88af0f39b2fa0dd3dbb14c00c938961619c46/custom-model-tfmobile-3.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

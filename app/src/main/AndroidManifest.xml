@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.c.myapplication">
+    <!-- For model performance tracking & analytics -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="demo.c.myapplication.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="demo.c.myapplication.filming.StyleTransferActivity"
+            android:parentActivityName="demo.c.myapplication.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="demo.c.myapplication.building.BuildCamera"
+            android:parentActivityName="demo.c.myapplication.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="demo.c.myapplication.ExplainPage"
+            android:parentActivityName="demo.c.myapplication.MainActivity"
+            android:screenOrientation="portrait" />
+        <service
+            android:name="ai.fritz.core.FritzCustomModelService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <meta-data
+            android:name="fritz_api_key"
+            android:value="46379c2f6a014aafba473fc2a9c52796" />
+    </application>
+
+
+</manifest>

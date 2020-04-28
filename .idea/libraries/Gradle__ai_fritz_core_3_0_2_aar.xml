@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ai.fritz:core:3.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-3.0.2.aar/2e49d0c1b2c82179f372f6d12cf28a52/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-3.0.2.aar/2e49d0c1b2c82179f372f6d12cf28a52/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ai.fritz/core/3.0.2/f085ce3250626338063b6f3e63c8b0c56591b66a/core-3.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
